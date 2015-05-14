@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url('http://i1367.photobucket.com/albums/r792/worldofentrepreneur/vDoU6tB_zpsizcfsggn.gif');
+  margin-top: 110px;
+  padding-left: 100px;
+  min-width: 1200px;
+  height: 500px;
+  position: relative;
+  z-index: 1;
+}
+
+.ryu {
+    width: 659px;
+    height: 494px;
+}
+
+.ryu-ready, .ryu-still, .ryu-throwing, ryu-cool {
+  width: 659px;
+  height: 494px;
+}
+
+.ryu-ready, .ryu-throwing, ryu-cool {
+  display: none;
+} 
+
+.ryu-ready {
+  background-image: url('http://i1367.photobucket.com/albums/r792/worldofentrepreneur/ryu-ready-position_zpsa5qibead.gif');
+}
+
+.ryu-still {
+  background-image: url('http://i1367.photobucket.com/albums/r792/worldofentrepreneur/ryu-standing-still_zpsmg2zxmeq.png');
+}
+
+.ryu-throwing {
+  background-image: url('http://i1367.photobucket.com/albums/r792/worldofentrepreneur/ryu-throwing-hadouken_zpsmjrj7jel.png');
+}
+
+.ryu-cool {
+  background-image: url('http://i1367.photobucket.com/albums/r792/worldofentrepreneur/ryu-cool_zpsknrncxyq.gif');
+}
+
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, ryu-cool {
+  background-repeat: no-repeat;
+}
+
+.hadouken {
+  background-image: url('http://i1367.photobucket.com/albums/r792/worldofentrepreneur/hadouken_zps2lruvlkr.gif');
+  width: 156px; 
+  height: 90px;
+  display: none;
+  float: left;
+  position: relative;
+  z-index: 10;
+  top: -328px;
+  left: 520px;
+}
